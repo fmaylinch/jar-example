@@ -48,11 +48,11 @@ java -cp out:libs/util.jar com.codethen.Main hello 5
 
 ## Maven
 
-Install jar in Maven local repository (google: maven install jar file):
+Install jar in Maven local repository ([execute mvn install jar file](https://www.google.com/search?q=mvn+install+jar+file)):
 ```
-mvn install:install-file -Dfile=util.jar -DgroupId=com.codethen -DartifactId=simple-util -Dversion=1.0 -Dpackaging=jar`
+mvn install:install-file -Dfile=util.jar -DgroupId=com.codethen -DartifactId=simple-util -Dversion=1.0 -Dpackaging=jar
 ```
 
-From IntelliJ (google: execute mvn command intellij)
+From IntelliJ ([execute mvn command intellij](https://www.google.com/search?q=execute+mvn+command+intellij))
 - Don't say `mvn`, just the arguments
 - Use absolute path to jar: e.g. `/Users/fmaylinch/dev/codethen/jar-example/library`
